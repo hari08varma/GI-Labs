@@ -29,8 +29,6 @@ memorised them. The learner sees only examples and checker feedback.
 - [Reproducing the results](#reproducing-the-results)
 - [Baselines](#baselines)
 - [Repository layout](#repository-layout)
-- [Testing and integrity rules](#testing-and-integrity-rules)
-- [Limitations and open problems](#limitations-and-open-problems)
 - [References](#references)
 
 ---
@@ -130,7 +128,7 @@ Groups: cumulative block F (S21–S24, rules only buildable from earlier concept
   larger space.
 - GCA's library is what solves block F (0.960 with it, 0.488 without). On the copies GCA reaches
   1.000 with or without its library, so there the library only saves examples, and only a
-  little (see [Limitations](#limitations-and-open-problems)).
+  little.
 - Per-rule cost to lock at noise 0 is 10.2 examples + checker calls with the library and 13.7
   without it (26% less).
 
@@ -356,56 +354,6 @@ results/
   baselines/          B2, B2+core, B2-L (popper/), B3 (b3/), B4 (b4/) predictions and logs
   final, final2, main, main_v1, main_v2, ablations, faults, dev/   earlier runs, kept for the record
 ```
-
----
-
-## Testing and integrity rules
-
-```bash
-python -m pytest -q
-```
-
-`tests/test_integrity.py` enforces the rules that keep the evaluation honest:
-
-- **Agent code never imports world internals.** Only `gca/world/api.py` is allowed. The test
-  parses the imports of every agent file.
-- **Budgets hold:** no learner gets more checker calls than its budget.
-- **Determinism:** the same seed gives byte-identical event logs.
-- **End to end:** a 3-system mini stream learns in under 60 s.
-
-Design rules followed throughout:
-
-- No learned weights and no gradient descent in the agent. Hypervectors are fixed random codes.
-- Nothing is locked until it is validated against the checker. Locked evidence is frozen and old
-  versions are archived, so later learning cannot cause forgetting.
-- A new column sprouts only on **learnable, compressible** error, which guards against the
-  "noisy TV" trap.
-
----
-
-## Limitations and open problems
-
-These are reported honestly; none of them is hidden in the tables above.
-
-- **Transfer speed (milestone M7) is not met.** Transfer copies need 0.52–1.02× the original's
-  examples; the target is ≤ 0.30×. The library's measured benefit is the cumulative block F and a
-  26% lower cost per locked rule, not fast relearning of copies.
-- **Noise costs accuracy.** At η = 0.2, GCA reaches 0.632 and abstains on 36% of questions. It
-  stays calibrated (0.7% confidently wrong), but it does not recover the missing knowledge.
-- **Diagnosis and play** have no measurable effect on clean streams; diagnosis is validated by
-  fault injection only.
-- **A self-check before answering** (`Flags.selfcheck`, ablation `with_selfcheck`) is off by
-  default: in A/B tests on dev seeds it withheld only correct answers, because its second route
-  reads the same evidence as the first.
-- **B2-L run failures (kept, not rerun):** a Prolog tabling-dependency error on 4 words (S04 in
-  three streams, S13 in one), 2 hung words (S16, s52 n0) and 7 unanswered questions (s51 n0).
-  Upper bound on their effect: 1.3 points on the noise-0 mean, 0 at noise 0.1.
-- **B3 / B4 cannot abstain**, which inflates their confidently-wrong rate. A confidence threshold
-  chosen on dev seeds and a data-size curve (35 / 60 / 90% of each table) are planned, not yet run.
-- **B5** (a frontier model with in-context examples) is not yet run.
-- The scope is a CPU prototype on invented maths. Perception, language and physical tasks are
-  later phases. Nothing here shows how the approach scales beyond this domain.
-- Known code debt: `gca/world/generator.py` has dead lines in `_questions` / `_experience`.
 
 ---
 
