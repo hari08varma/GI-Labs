@@ -1,0 +1,119 @@
+{
+ "seed": 2,
+ "noise": 0.1,
+ "causes": {
+  "foundation": 215,
+  "wrong": 10,
+  "rule:data": 204,
+  "budget": 260
+ },
+ "systems": {
+  "S01": {
+   "acc": 1.0,
+   "calls": 6,
+   "budget": 12
+  },
+  "S02": {
+   "acc": 1.0,
+   "calls": 10,
+   "budget": 18
+  },
+  "S03": {
+   "acc": 0.03571428571428571,
+   "calls": 8,
+   "budget": 24,
+   "foundation": 215,
+   "wrong": 1
+  },
+  "S04": {
+   "acc": 1.0,
+   "calls": 18,
+   "budget": 24
+  },
+  "S05": {
+   "acc": 1.0,
+   "calls": 15,
+   "budget": 24
+  },
+  "S06": {
+   "acc": 1.0,
+   "calls": 21,
+   "budget": 30
+  },
+  "S07": {
+   "acc": 1.0,
+   "calls": 26,
+   "budget": 30
+  },
+  "S08": {
+   "acc": 0.9785714285714285,
+   "calls": 26,
+   "budget": 30,
+   "wrong": 6
+  },
+  "S09": {
+   "acc": 1.0,
+   "calls": 20,
+   "budget": 24
+  },
+  "S10": {
+   "acc": 1.0,
+   "calls": 12,
+   "budget": 18
+  },
+  "S11": {
+   "acc": 1.0,
+   "calls": 20,
+   "budget": 24
+  },
+  "S12": {
+   "acc": 1.0,
+   "calls": 26,
+   "budget": 30
+  },
+  "S13": {
+   "acc": 1.0,
+   "calls": 16,
+   "budget": 24
+  },
+  "S14": {
+   "acc": 1.0,
+   "calls": 26,
+   "budget": 30
+  },
+  "S15": {
+   "acc": 1.0,
+   "calls": 8,
+   "budget": 12
+  },
+  "S16": {
+   "acc": 0.08482142857142858,
+   "calls": 3,
+   "budget": 12,
+   "rule:data": 204,
+   "wrong": 1
+  },
+  "S17": {
+   "acc": 0.6928571428571428,
+   "calls": 32,
+   "budget": 85,
+   "wrong": 1
+  },
+  "S18": {
+   "acc": 1.0,
+   "calls": 20,
+   "budget": 24
+  },
+  "S19": {
+   "acc": 0.37142857142857144,
+   "calls": 26,
+   "budget": 175,
+   "wrong": 1
+  },
+  "S20": {
+   "acc": 1.0,
+   "calls": 26,
+   "budget": 30
+  }
+ }
+}

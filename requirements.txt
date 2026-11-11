@@ -1,0 +1,10 @@
+# Core (the GCA agent, the hidden world, experiments). CPU only.
+numpy>=2.0
+pyyaml>=6.0
+
+# Tests
+pytest>=8.0
+hypothesis>=6.100
+
+# Optional: learning-curve plot (experiments/curves.py --png)
+matplotlib>=3.8

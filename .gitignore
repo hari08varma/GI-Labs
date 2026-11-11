@@ -1,0 +1,31 @@
+# Python / tooling caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.hypothesis/
+.venv/
+venv/
+
+# Not published: private working notes, design documents, exported data and answer keys
+CLAUDE.md
+docs/
+baselines/data/
+baselines/kaggle/*/data/
+
+# Archives and resume files (the extracted contents are in the repo)
+*.zip
+*.ckpt
+*.ckpt.pt
+*.ckpt.json
+results/baselines/popper/volume/ckpt/
+results/baselines/popper/wsl/ckpt/
+results/baselines/popper/wsl/b2l_ckpt/
+
+# A failed report run (traceback, not a result)
+results/final3/ablations_table.md
+
+# Secrets, never committed
+.env
+.env.*
+kaggle.json

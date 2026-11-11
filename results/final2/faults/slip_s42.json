@@ -1,0 +1,713 @@
+{
+ "slip": {
+  "summary": {
+   "injected": 24,
+   "triggered": 24,
+   "correct": 23,
+   "precision": 0.9583333333333334
+  },
+  "runs": [
+   {
+    "sid": "S01",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 3,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S01/F:bokex:(5, 1)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S01/F:bokex:(3, 6)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S01/F:bokex:(0, 5)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S02",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S02/F:gapo:(1, 8)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S02/F:gapo:(0, 6)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S03",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 3,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S03/F:kubom:(6, 7)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S03/F:kubom:(1, 5)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S03/F:kubom:(1, 4)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S04",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 0,
+     "of": 6,
+     "correct": false,
+     "superseded_locked": 1
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "wrong_concept",
+      "component": "S04/F:semi#29"
+     }
+    ],
+    "test_acc": 0.5464285714285714
+   },
+   {
+    "sid": "S05",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S05/F:nuzi:(4, 2)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S05/F:nuzi:(4, 1)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S06",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S06/F:boro:(8, 5)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S06/F:boro:(3, 5)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S07",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S07/F:bipu:(0, 0)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S07/F:bipu:(6, 4)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S08",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S08/F:sux:(21, 7)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S08/F:sux:(89, 5)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S09",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S09/F:lives:(12, 9)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S09/F:lives:(2, 12)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S10",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S10/F:vas:(4, 7)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S10/F:vas:(7, 2)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S11",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S11/F:gamim:(140, 11)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S11/F:gamim:(0, 7)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S12",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S12/F:guga:(21, 3)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S12/F:guga:(27, 6)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S13",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S13/F:fata:(5, 2)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S13/F:fata:(2, 5)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S14",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S14/F:fozur:(1, 2)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S14/F:fozur:(7, 7)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S15",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S15/F:des:(20, 6)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S15/F:des:(4, 5)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S16",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S16/F:kekas:(77, 1)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S16/F:kekas:(18, 4)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S17",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S17/F:dere:(15, 5)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S17/F:dere:(88, 1)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S18",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 1,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S18/F:mife:(3, 7)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S19",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S19/F:ros:(5, 8)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S19/F:ros:(7, 7)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S20",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S20/F:tuzu:(64, 3)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S20/F:tuzu:(62, 3)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S21",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S21/F:kerum:(8, 4)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S21/F:kerum:(2, 0)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S22",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S22/F:migo:(42, 6)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S22/F:migo:(5, 3)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S23",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 3,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S23/F:karur:(5, 4)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S23/F:zim:(5, 2)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S23/F:zim:(34, 3)"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S24",
+    "truth": {
+     "type": "slip",
+     "component": "event",
+     "cause": "slip",
+     "n": 6
+    },
+    "judge": {
+     "triggered": true,
+     "named": 2,
+     "of": 6,
+     "correct": true,
+     "superseded_locked": 0
+    },
+    "diagnoses": [
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S24/F:zodes:(3, 9)"
+     },
+     {
+      "via": "checker",
+      "cause": "slip",
+      "component": "event:S24/F:mara:(5, 4)"
+     }
+    ],
+    "test_acc": 1.0
+   }
+  ]
+ }
+}

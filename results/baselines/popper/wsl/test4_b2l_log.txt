@@ -1,0 +1,4 @@
+S01 2s 2 clauses
+S02 128s 19 clauses
+S03 3s 0 clauses
+S04 145s 23 clauses

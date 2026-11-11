@@ -1,0 +1,2 @@
+S05 chains filled: {'r1': '5->7', 'r2': '4->7'}
+S05 277s 18 clauses

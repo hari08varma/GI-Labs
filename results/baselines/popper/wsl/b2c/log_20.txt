@@ -1,0 +1,2 @@
+S21 chains filled: {'r1': '7->9', 'r2': '7->8'}
+S21 246s 6 clauses

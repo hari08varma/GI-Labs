@@ -1,0 +1,517 @@
+{
+ "misread": {
+  "summary": {
+   "injected": 23,
+   "triggered": 22,
+   "correct": 21,
+   "precision": 0.9545454545454546
+  },
+  "runs": [
+   {
+    "sid": "S01",
+    "truth": {
+     "type": "misread",
+     "component": "lex:pezo",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "misread",
+      "component": "lex:pezo"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S02",
+    "truth": {
+     "type": "misread",
+     "component": "lex:kus",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:kus"
+     }
+    ],
+    "test_acc": 0.8571428571428571
+   },
+   {
+    "sid": "S03",
+    "truth": {
+     "type": "misread",
+     "component": "lex:kar",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:kar"
+     }
+    ],
+    "test_acc": 0.8214285714285714
+   },
+   {
+    "sid": "S04",
+    "truth": {
+     "type": "misread",
+     "component": "lex:tuzi",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:tuzi"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S05",
+    "truth": {
+     "type": "misread",
+     "component": "lex:fole",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:fole"
+     }
+    ],
+    "test_acc": 0.8321428571428572
+   },
+   {
+    "sid": "S06",
+    "truth": {
+     "type": "misread",
+     "component": "lex:mupo",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:mupo"
+     }
+    ],
+    "test_acc": 0.8571428571428571
+   },
+   {
+    "sid": "S07",
+    "truth": {
+     "type": "misread",
+     "component": "lex:res",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 4,
+      "cause": "misread",
+      "component": "lex:res"
+     }
+    ],
+    "test_acc": 0.8392857142857143
+   },
+   {
+    "sid": "S08",
+    "truth": {
+     "type": "misread",
+     "component": "lex:zisos",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:zisos"
+     }
+    ],
+    "test_acc": 0.7857142857142857
+   },
+   {
+    "sid": "S09",
+    "truth": {
+     "type": "misread",
+     "component": "lex:mer",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:mer"
+     }
+    ],
+    "test_acc": 0.8303571428571429
+   },
+   {
+    "sid": "S10",
+    "truth": {
+     "type": "misread",
+     "component": "lex:fus",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:fus"
+     }
+    ],
+    "test_acc": 0.7788018433179723
+   },
+   {
+    "sid": "S11",
+    "truth": {
+     "type": "misread",
+     "component": "lex:sum",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:sum"
+     }
+    ],
+    "test_acc": 0.8
+   },
+   {
+    "sid": "S12",
+    "truth": {
+     "type": "misread",
+     "component": "lex:dibu",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": false,
+     "component_ok": false,
+     "cause": null,
+     "correct": false
+    },
+    "diagnoses": [],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S13",
+    "truth": {
+     "type": "misread",
+     "component": "lex:ros",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:ros"
+     }
+    ],
+    "test_acc": 0.779783393501805
+   },
+   {
+    "sid": "S14",
+    "truth": {
+     "type": "misread",
+     "component": "lex:gis",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:gis"
+     }
+    ],
+    "test_acc": 0.8321428571428572
+   },
+   {
+    "sid": "S16",
+    "truth": {
+     "type": "misread",
+     "component": "lex:tipar",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:tipar"
+     }
+    ],
+    "test_acc": 0.32589285714285715
+   },
+   {
+    "sid": "S17",
+    "truth": {
+     "type": "misread",
+     "component": "lex:tun",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:tun"
+     }
+    ],
+    "test_acc": 0.8321428571428572
+   },
+   {
+    "sid": "S18",
+    "truth": {
+     "type": "misread",
+     "component": "lex:rumu",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:rumu"
+     }
+    ],
+    "test_acc": 0.7232142857142857
+   },
+   {
+    "sid": "S19",
+    "truth": {
+     "type": "misread",
+     "component": "lex:rik",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "misread",
+      "component": "lex:rik"
+     }
+    ],
+    "test_acc": 0.9107142857142857
+   },
+   {
+    "sid": "S20",
+    "truth": {
+     "type": "misread",
+     "component": "lex:nodus",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:nodus"
+     }
+    ],
+    "test_acc": 0.8678571428571429
+   },
+   {
+    "sid": "S21",
+    "truth": {
+     "type": "misread",
+     "component": "lex:tik",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": false,
+     "cause": "wrong_concept",
+     "correct": false
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S21/F:ken#202"
+     },
+     {
+      "checks": 2,
+      "cause": "misread",
+      "component": "lex:tik"
+     }
+    ],
+    "test_acc": 0.8071428571428572
+   },
+   {
+    "sid": "S22",
+    "truth": {
+     "type": "misread",
+     "component": "lex:ret",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "misread",
+      "component": "lex:ret"
+     }
+    ],
+    "test_acc": 0.7928571428571428
+   },
+   {
+    "sid": "S23",
+    "truth": {
+     "type": "misread",
+     "component": "lex:kabus",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:kabus"
+     }
+    ],
+    "test_acc": 0.8964285714285715
+   },
+   {
+    "sid": "S24",
+    "truth": {
+     "type": "misread",
+     "component": "lex:varek",
+     "cause": "misread"
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "misread",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "misread",
+      "component": "lex:varek"
+     }
+    ],
+    "test_acc": 0.7571428571428571
+   }
+  ]
+ }
+}

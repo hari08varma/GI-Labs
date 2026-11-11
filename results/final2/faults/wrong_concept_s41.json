@@ -1,0 +1,571 @@
+{
+ "wrong_concept": {
+  "summary": {
+   "injected": 23,
+   "triggered": 23,
+   "correct": 23,
+   "precision": 1.0
+  },
+  "runs": [
+   {
+    "sid": "S02",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S02/F:nok#5",
+     "cause": "wrong_concept",
+     "cells": 16
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S02/F:nok#5"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S03",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S03/F:demi#9",
+     "cause": "wrong_concept",
+     "cells": 13
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "wrong_concept",
+      "component": "S03/F:demi#9"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S04",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S04/F:kufo#19",
+     "cause": "wrong_concept",
+     "cells": 24
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 5,
+      "cause": "wrong_concept",
+      "component": "S04/F:kufo#19"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S05",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S05/F:vulax#24",
+     "cause": "wrong_concept",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "wrong_concept",
+      "component": "S05/F:vulax#24"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S06",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S06/F:muri#34",
+     "cause": "wrong_concept",
+     "cells": 20
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S06/F:muri#34"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S07",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S07/F:defe#40",
+     "cause": "wrong_concept",
+     "cells": 16
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S07/F:defe#40"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S08",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S08/F:kivus#49",
+     "cause": "wrong_concept",
+     "cells": 24
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 4,
+      "cause": "wrong_concept",
+      "component": "S08/F:kivus#49"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S09",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S09/F:busu#60",
+     "cause": "wrong_concept",
+     "cells": 34
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "wrong_concept",
+      "component": "S09/F:busu#60"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S10",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S10/F:rusik#68",
+     "cause": "wrong_concept",
+     "cells": 16
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 4,
+      "cause": "wrong_concept",
+      "component": "S10/F:rusik#68"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S11",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S11/F:fes#72",
+     "cause": "wrong_concept",
+     "cells": 29
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S11/F:fes#72"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S12",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S12/F:nefe#80",
+     "cause": "wrong_concept",
+     "cells": 14
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S12/F:nefe#80"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S13",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S13/F:sano#87",
+     "cause": "wrong_concept",
+     "cells": 16
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S13/F:sano#87"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S14",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S14/F:nezi#93",
+     "cause": "wrong_concept",
+     "cells": 20
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S14/F:nezi#93"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S15",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S15/F:sirur#103",
+     "cause": "wrong_concept",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S15/F:sirur#103"
+     }
+    ],
+    "test_acc": 0.37857142857142856
+   },
+   {
+    "sid": "S16",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S16/F:sux#107",
+     "cause": "wrong_concept",
+     "cells": 16
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S16/F:sux#107"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S17",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S17/F:vodu#114",
+     "cause": "wrong_concept",
+     "cells": 25
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S17/F:vodu#114"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S18",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S18/F:guror#129",
+     "cause": "wrong_concept",
+     "cells": 34
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S18/F:guror#129"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S19",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S19/F:galu#138",
+     "cause": "wrong_concept",
+     "cells": 29
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 5,
+      "cause": "wrong_concept",
+      "component": "S19/F:galu#138"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S20",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S20/F:vus#147",
+     "cause": "wrong_concept",
+     "cells": 21
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S20/F:vus#147"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S21",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S21/F:vobo#158",
+     "cause": "wrong_concept",
+     "cells": 16
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S21/F:vobo#158"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S22",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S22/F:nir#168",
+     "cause": "wrong_concept",
+     "cells": 24
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S22/F:nir#168"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S23",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S23/F:geze#177",
+     "cause": "wrong_concept",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 2,
+      "cause": "wrong_concept",
+      "component": "S23/F:geze#177"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S24",
+    "truth": {
+     "type": "wrong_concept",
+     "component": "S24/F:fux#185",
+     "cause": "wrong_concept",
+     "cells": 20
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "wrong_concept",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "wrong_concept",
+      "component": "S24/F:fux#185"
+     }
+    ],
+    "test_acc": 1.0
+   }
+  ]
+ }
+}

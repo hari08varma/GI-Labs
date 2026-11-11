@@ -1,0 +1,22 @@
+sweep L2 s0: exit 0, 757s
+sweep L2 s1: exit 0, 800s
+sweep L2 s2: exit 0, 761s
+sweep L3 s0: exit 0, 1023s
+sweep L3 s1: exit 0, 1030s
+sweep L3 s2: exit 0, 1056s
+sweep L4 s0: exit 0, 1278s
+sweep L4 s1: exit 0, 1152s
+sweep L4 s2: exit 0, 855s
+dev accuracy by depth: {2: 0.2048914074693842, 3: 0.20618208373782376, 4: 0.2059797848178422}; chosen depth: 2
+test sequential s50 n0.0: exit 0, 781s
+test sequential s50 n0.1: exit 0, 787s
+test sequential s51 n0.0: exit 0, 776s
+test sequential s51 n0.1: exit 0, 796s
+test sequential s52 n0.0: exit 0, 771s
+test sequential s52 n0.1: exit 0, 770s
+test per_system s50 n0.0: exit 0, 771s
+test per_system s50 n0.1: exit 0, 768s
+test per_system s51 n0.0: exit 0, 771s
+test per_system s51 n0.1: exit 0, 779s
+test per_system s52 n0.0: exit 0, 756s
+test per_system s52 n0.1: exit 0, 770s

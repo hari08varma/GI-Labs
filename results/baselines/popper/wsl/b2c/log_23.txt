@@ -1,0 +1,2 @@
+S24 chains filled: {'r1': '8->8', 'r2': '7->7'}
+S24 246s 3 clauses

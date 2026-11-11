@@ -1,0 +1,166 @@
+smoke test: exit 0, 28s
+S02 train 3s answer 1s
+final re-ask 0s
+
+stream_s50_n0.0: exit 0, 614s
+S01 train 4s answer 2s
+S02 train 8s answer 4s
+S03 train 10s answer 4s
+S04 train 15s answer 4s
+S05 train 11s answer 5s
+S06 train 18s answer 4s
+S07 train 19s answer 5s
+S08 train 27s answer 4s
+S09 train 18s answer 4s
+S10 train 10s answer 4s
+S11 train 18s answer 5s
+S12 train 16s answer 4s
+S13 train 13s answer 4s
+S14 train 19s answer 4s
+S15 train 17s answer 6s
+S16 train 13s answer 5s
+S17 train 27s answer 5s
+S18 train 24s answer 4s
+S19 train 30s answer 5s
+S20 train 21s answer 5s
+S21 train 13s answer 4s
+S22 train 22s answer 4s
+S23 train 11s answer 4s
+S24 train 16s answer 5s
+final re-ask 99s
+
+stream_s51_n0.0: exit 0, 620s
+S01 train 4s answer 2s
+S02 train 10s answer 3s
+S03 train 12s answer 4s
+S04 train 18s answer 4s
+S05 train 11s answer 5s
+S06 train 18s answer 4s
+S07 train 18s answer 6s
+S08 train 23s answer 4s
+S09 train 19s answer 4s
+S10 train 10s answer 3s
+S11 train 19s answer 4s
+S12 train 17s answer 4s
+S13 train 13s answer 4s
+S14 train 22s answer 4s
+S15 train 19s answer 6s
+S16 train 14s answer 5s
+S17 train 26s answer 4s
+S18 train 25s answer 4s
+S19 train 25s answer 4s
+S20 train 22s answer 5s
+S21 train 14s answer 4s
+S22 train 17s answer 4s
+S23 train 14s answer 5s
+S24 train 16s answer 5s
+final re-ask 100s
+
+stream_s52_n0.0: exit 0, 630s
+S01 train 3s answer 2s
+S02 train 12s answer 4s
+S03 train 14s answer 4s
+S04 train 16s answer 5s
+S05 train 11s answer 4s
+S06 train 20s answer 3s
+S07 train 21s answer 5s
+S08 train 24s answer 4s
+S09 train 21s answer 4s
+S10 train 10s answer 3s
+S11 train 21s answer 5s
+S12 train 18s answer 4s
+S13 train 17s answer 4s
+S14 train 24s answer 5s
+S15 train 16s answer 6s
+S16 train 16s answer 4s
+S17 train 32s answer 5s
+S18 train 21s answer 4s
+S19 train 24s answer 5s
+S20 train 18s answer 5s
+S21 train 13s answer 4s
+S22 train 17s answer 4s
+S23 train 10s answer 5s
+S24 train 15s answer 4s
+final re-ask 100s
+
+stream_s50_n0.1: exit 0, 632s
+S01 train 3s answer 1s
+S02 train 9s answer 3s
+S03 train 15s answer 4s
+S04 train 17s answer 4s
+S05 train 12s answer 4s
+S06 train 20s answer 4s
+S07 train 20s answer 5s
+S08 train 21s answer 4s
+S09 train 21s answer 4s
+S10 train 10s answer 4s
+S11 train 19s answer 5s
+S12 train 17s answer 4s
+S13 train 14s answer 4s
+S14 train 23s answer 5s
+S15 train 18s answer 6s
+S16 train 15s answer 5s
+S17 train 28s answer 5s
+S18 train 22s answer 4s
+S19 train 29s answer 5s
+S20 train 20s answer 5s
+S21 train 17s answer 4s
+S22 train 17s answer 4s
+S23 train 11s answer 5s
+S24 train 16s answer 4s
+final re-ask 102s
+
+stream_s51_n0.1: exit 0, 622s
+S01 train 4s answer 1s
+S02 train 9s answer 3s
+S03 train 13s answer 4s
+S04 train 20s answer 4s
+S05 train 16s answer 5s
+S06 train 20s answer 4s
+S07 train 20s answer 5s
+S08 train 21s answer 4s
+S09 train 20s answer 4s
+S10 train 7s answer 3s
+S11 train 19s answer 4s
+S12 train 17s answer 4s
+S13 train 13s answer 4s
+S14 train 20s answer 4s
+S15 train 19s answer 6s
+S16 train 21s answer 5s
+S17 train 26s answer 4s
+S18 train 21s answer 4s
+S19 train 28s answer 4s
+S20 train 20s answer 5s
+S21 train 13s answer 5s
+S22 train 18s answer 5s
+S23 train 10s answer 4s
+S24 train 15s answer 4s
+final re-ask 99s
+
+stream_s52_n0.1: exit 0, 630s
+S01 train 3s answer 1s
+S02 train 10s answer 4s
+S03 train 12s answer 4s
+S04 train 17s answer 4s
+S05 train 11s answer 4s
+S06 train 19s answer 4s
+S07 train 20s answer 5s
+S08 train 22s answer 5s
+S09 train 25s answer 4s
+S10 train 11s answer 3s
+S11 train 24s answer 5s
+S12 train 18s answer 4s
+S13 train 13s answer 4s
+S14 train 22s answer 5s
+S15 train 12s answer 5s
+S16 train 14s answer 5s
+S17 train 30s answer 5s
+S18 train 21s answer 4s
+S19 train 28s answer 5s
+S20 train 19s answer 5s
+S21 train 18s answer 5s
+S22 train 16s answer 4s
+S23 train 15s answer 5s
+S24 train 17s answer 4s
+final re-ask 99s
+

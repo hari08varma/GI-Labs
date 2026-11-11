@@ -1,0 +1,504 @@
+{
+ "out_of_scope": {
+  "summary": {
+   "injected": 19,
+   "triggered": 19,
+   "correct": 19,
+   "precision": 1.0
+  },
+  "runs": [
+   {
+    "sid": "S02",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S02/F:bira#5",
+     "cause": "out_of_scope",
+     "cells": 9
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S02/F:bira#5"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S03",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S03/F:fozom#12",
+     "cause": "out_of_scope",
+     "cells": 8
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 2,
+      "cause": "out_of_scope",
+      "component": "S03/F:fozom#12"
+     },
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S03/F:fozom#14"
+     }
+    ],
+    "test_acc": 0.8258928571428571
+   },
+   {
+    "sid": "S05",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S05/F:tasin#31",
+     "cause": "out_of_scope",
+     "cells": 7
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S05/F:tasin#31"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S06",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S06/F:dipi#41",
+     "cause": "out_of_scope",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 4,
+      "cause": "out_of_scope",
+      "component": "S06/F:dipi#41"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S07",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S07/F:boko#49",
+     "cause": "out_of_scope",
+     "cells": 9
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S07/F:boko#49"
+     },
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S07/F:boko#51"
+     }
+    ],
+    "test_acc": 0.9285714285714286
+   },
+   {
+    "sid": "S08",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S08/F:riren#58",
+     "cause": "out_of_scope",
+     "cells": 11
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S08/F:riren#58"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S09",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S09/F:dize#71",
+     "cause": "out_of_scope",
+     "cells": 13
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S09/F:dize#71"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S10",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S10/F:fak#80",
+     "cause": "out_of_scope",
+     "cells": 9
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 3,
+      "cause": "out_of_scope",
+      "component": "S10/F:fak#80"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S11",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S11/F:faku#85",
+     "cause": "out_of_scope",
+     "cells": 12
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S11/F:faku#85"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S12",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S12/F:tuzo#95",
+     "cause": "out_of_scope",
+     "cells": 8
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S12/F:tuzo#95"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S13",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S13/F:dumo#102",
+     "cause": "out_of_scope",
+     "cells": 9
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 4,
+      "cause": "out_of_scope",
+      "component": "S13/F:dumo#102"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S14",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S14/F:dita#107",
+     "cause": "out_of_scope",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S14/F:dita#107"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S17",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S17/F:var#128",
+     "cause": "out_of_scope",
+     "cells": 11
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S17/F:var#128"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S18",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S18/F:bit#144",
+     "cause": "out_of_scope",
+     "cells": 13
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 7,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 0,
+      "cause": "out_of_scope",
+      "component": "S18/F:bit#144"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S19",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S19/F:tezin#153",
+     "cause": "out_of_scope",
+     "cells": 12
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S19/F:tezin#153"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S20",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S20/F:mox#169",
+     "cause": "out_of_scope",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 0,
+      "cause": "unlocated",
+      "component": null
+     },
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S20/F:mox#169"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S21",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S21/F:bik#180",
+     "cause": "out_of_scope",
+     "cells": 9
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S21/F:bik#180"
+     }
+    ],
+    "test_acc": 1.0
+   },
+   {
+    "sid": "S23",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S23/F:gaze#210",
+     "cause": "out_of_scope",
+     "cells": 7
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S23/F:gaze#210"
+     },
+     {
+      "checks": 1,
+      "cause": "wrong_concept",
+      "component": "S23/F:gaze#212"
+     }
+    ],
+    "test_acc": 0.7178571428571429
+   },
+   {
+    "sid": "S24",
+    "truth": {
+     "type": "out_of_scope",
+     "component": "S24/F:dor#219",
+     "cause": "out_of_scope",
+     "cells": 10
+    },
+    "judge": {
+     "triggered": true,
+     "component_ok": true,
+     "cause": "out_of_scope",
+     "correct": true
+    },
+    "diagnoses": [
+     {
+      "checks": 1,
+      "cause": "out_of_scope",
+      "component": "S24/F:dor#219"
+     }
+    ],
+    "test_acc": 1.0
+   }
+  ]
+ }
+}

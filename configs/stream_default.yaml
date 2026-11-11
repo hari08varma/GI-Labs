@@ -1,0 +1,44 @@
+# The default 20-system stream (plan §2.2). Hidden definitions use the world's
+# private grammar: succ | affine:a,b | lin:a,b,c (a*x+b*y+c) | poly:a,b,c,d,e,f
+# (a x^2 + b y^2 + c xy + d x + e y + f) | max | min | lt.  All modulo n.
+defaults:
+  binary_fraction: 0.35      # share of binary table cells observed
+  increment: 5               # observations per experience increment
+  questions_per_split: 60
+  practice_questions: 20     # answered with feedback (used for diagnosis)
+  budget_per_word: 6         # checker calls per word, identical for every learner
+  foundation_first: true     # successor facts come first in experience (curriculum)
+
+systems:
+  # Block A: foundations
+  - {id: S01, n: 7,  block: A, ops: []}
+  - {id: S02, n: 9,  block: A, ops: [{def: "lin:1,1,0"}]}
+  - {id: S03, n: 8,  block: A, ops: [{def: "lin:1,1,0"}, {def: "lin:1,1,2"}]}
+  - {id: S04, n: 11, block: A, ops: [{def: lt}, {def: max}]}
+  # Block B: building on it
+  - {id: S05, n: 7,  block: B, ops: [{def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}]}
+  - {id: S06, n: 10, block: B, ops: [{def: "lin:1,1,0"}, {def: "lin:1,-1,0", alt_phrasing: true}]}
+  - {id: S07, n: 9,  block: B, ops: [{def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}, {def: "lin:2,0,1"}]}
+  - {id: S08, n: 11, block: B, ops: [{def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}, {def: "lin:2,3,1"}]}
+  - {id: S09, n: 13, block: B, ops: [{def: "lin:1,1,0"}, {def: "lin:1,2,0"}]}
+  # Block C: transfer (isomorphic copies under new and reused tokens)
+  - {id: S10, copy_of: S02, n: 9,  block: C, tags: [transfer], reuse_tokens: 0.3}
+  - {id: S11, copy_of: S05, n: 12, block: C, tags: [transfer], reuse_tokens: 0.3}
+  - {id: S12, copy_of: S06, n: 8,  block: C, tags: [transfer], reuse_tokens: 0.3}
+  - {id: S13, copy_of: S04, n: 9,  block: C, tags: [transfer], reuse_tokens: 0.3}
+  - {id: S14, copy_of: S08, n: 10, block: C, tags: [transfer], reuse_tokens: 0.3}
+  # Block D: harder (no successor statements: structure from tables only)
+  - {id: S15, n: 7,  block: D, foundation: false, tags: [transfer], ops: [{def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}]}
+  - {id: S16, n: 9,  block: D, foundation: false, tags: [transfer], ops: [{def: "lin:1,1,0"}, {def: "lin:1,-1,0"}]}
+  - {id: S17, n: 11, block: D, ops: [{def: lt}, {def: max}, {def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}]}
+  - {id: S18, n: 13, block: D, ops: [{def: "lin:1,1,0"}, {def: "lin:3,1,0"}]}
+  # Block E: new structures, late-life learning speed
+  - {id: S19, n: 12, block: E, ops: [{def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}, {def: "poly:0,0,1,1,0,0"}]}
+  - {id: S20, n: 10, block: E, ops: [{def: "lin:1,1,0"}, {def: "poly:0,0,1,0,0,0"}, {def: "poly:1,0,0,0,1,0"}]}
+  # Block F: cumulative. Each rule is too large to find from the innate core and this world's
+  # own addition alone (9+ nodes, no single split), but buildable by linking earlier concepts
+  # (multiplication). Same world rules as everywhere else.
+  - {id: S21, n: 9,  block: F, tags: [cumulative], ops: [{def: "lin:1,1,0"}, {def: "terms:1*1*2"}]}
+  - {id: S22, n: 11, block: F, tags: [cumulative], ops: [{def: "lin:1,1,0"}, {def: "terms:1*2*1,1*0*0"}]}
+  - {id: S23, n: 7,  block: F, tags: [cumulative], ops: [{def: "lin:1,1,0"}, {def: "terms:1*2*1,1*1*1"}]}
+  - {id: S24, n: 10, block: F, tags: [cumulative], ops: [{def: "lin:1,1,0"}, {def: "terms:1*1*2,1*1*1"}]}

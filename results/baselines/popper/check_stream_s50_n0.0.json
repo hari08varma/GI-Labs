@@ -1,0 +1,10 @@
+{
+ "predictions": {},
+ "programs": [],
+ "logs": [
+  "S02 r3 r1 o_sik pos 12/45 neg 0\nS02 r3 r2 o_sik pos 11/45 neg 0\nS02 r3 r2 o_mubum pos 0/45 neg 3\n",
+  "S03 r3 r2 o_dokom pos 18/31 neg 0\nS03 r3 r1 o_dokom pos 15/31 neg 0\nS03 r3 r1 o_get pos 0/31 neg 4\nS03 r4 r2 o_daba pos 15/35 neg 0\nS03 r4 r1 o_daba pos 4/35 neg 0\nS03 r4 r1 o_get pos 0/35 neg 4\n",
+  "S05 r3 r1 o_luse pos 4/27 neg 0\nS05 r3 r2 o_luse pos 4/27 neg 3\nS05 r3 r2 o_voki pos 4/27 neg 11\nS05 r4 r1 o_gut pos 9/28 neg 0\nS05 r4 r2 o_gut pos 5/28 neg 0\nS05 r4 r1 o_luse pos 0/28 neg 5\n"
+ ],
+ "n_jobs": 3
+}
